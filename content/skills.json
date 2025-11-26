@@ -1,0 +1,36 @@
+{
+  "backend": [
+    "Java",
+    "Spring Boot",
+    "Spring MVC",
+    "Microservices",
+    "REST API Development"
+  ],
+  "frontend": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React"
+  ],
+  "csFundamentals": [
+    "Data Structures",
+    "Algorithms",
+    "Object-Oriented Programming (OOP)",
+    "Database Management Systems (DBMS)",
+    "Distributed Systems"
+  ],
+  "tools": [
+    "Git",
+    "GitHub",
+    "Postman",
+    "IntelliJ IDEA",
+    "VS Code"
+  ],
+  "systemDesign": [
+    "Scalability",
+    "Load Balancing",
+    "Event-Driven Architecture",
+    "API Rate Limiting",
+    "Designing Distributed Services"
+  ]
+}

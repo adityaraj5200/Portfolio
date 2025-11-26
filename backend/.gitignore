@@ -1,0 +1,67 @@
+############################
+# Maven / Build
+############################
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+############################
+# Java / Spring Boot
+############################
+*.class
+*.jar
+*.war
+*.ear
+
+# Spring Boot dev files
+*.log
+spring.log
+*.pid
+
+############################
+# IntelliJ IDEA
+############################
+.idea/
+*.iml
+*.iws
+out/
+
+############################
+# VSCode
+############################
+.vscode/
+.settings/
+
+############################
+# OS Files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Logs / Temp / Cache
+############################
+logs/
+log/
+*.log
+*.tmp
+*.temp
+*.swp
+
+############################
+# Application
+############################
+# Ignore generated files
+*.rsrc
+*.orig
+
+############################
+# Node (if frontend is inside repo)
+############################
+node_modules/
+
+############################
+# Environment Variables
+############################
+.env
+.env.*

@@ -1,0 +1,16 @@
+{
+  "experience": [
+    {
+      "company": "Amazon",
+      "position": "SDE-1 (Software Development Engineer)",
+      "duration": "Jan 2024 - May 2025 (1.3 years)",
+      "location": "Chennai, Tamil Nadu, India",
+      "description": [
+        "Developed REST APIs using Java and Spring Boot for christmas offers.   The API handled 10K+ daily requests for the Christmas time window with p99 < 80ms.",
+        "Led AAA to CloudAuth migration of 8+ services within Amazons backend systems, in which I had to migrate services from legacy authentication system AAA to CloudAuth.",
+        "Bannered carousel implementation on pages: Revamped high-traffic horizontal carousel components using Amazon UI (AUI) framework, replacing compact cards with visually appealing banner like components.",
+        "Weblab cleanup: Reduced code complexity, risk of regression, and increased code maintainability by removing 750+ dead andredundant lines of code after cleaning up 3 weblabs code."
+      ]
+    }
+  ]
+}

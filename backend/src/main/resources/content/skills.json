@@ -1,0 +1,30 @@
+{
+  "backend": [
+    "Java",
+    "Spring Boot",
+    "Spring MVC",
+    "Microservices",
+    "REST API Development",
+    "Hibernate / JPA"
+  ],
+  "database": [
+    "MySQL",
+    "PostgreSQL",
+    "H2 Database"
+  ],
+  "csFundamentals": [
+    "Data Structures",
+    "Algorithms",
+    "Object-Oriented Programming",
+    "DBMS",
+    "Operating Systems"
+  ],
+  "tools": [
+    "Git",
+    "Docker",
+    "Postman",
+    "AWS (Basics)",
+    "Maven",
+    "IntelliJ IDEA"
+  ]
+}

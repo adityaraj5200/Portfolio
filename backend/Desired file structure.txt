@@ -1,0 +1,59 @@
+backend/
+│
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── aditya/
+│       │           └── portfolio/
+│       │               ├── PortfolioBackendApplication.java
+│       │               │
+│       │               ├── controller/
+│       │               │   ├── AboutController.java
+│       │               │   ├── SkillsController.java
+│       │               │   ├── ExperienceController.java
+│       │               │   ├── ProjectsController.java
+│       │               │   ├── EducationController.java
+│       │               │   └── ContactController.java
+│       │               │
+│       │               ├── service/
+│       │               │   ├── ContentService.java
+│       │               │   └── impl/
+│       │               │       └── ContentServiceImpl.java
+│       │               │
+│       │               ├── model/
+│       │               │   ├── About.java
+│       │               │   ├── Skills.java
+│       │               │   ├── Experience.java
+│       │               │   ├── Project.java
+│       │               │   ├── ProjectsWrapper.java
+│       │               │   ├── Education.java
+│       │               │   └── Contact.java
+│       │               │
+│       │               ├── util/
+│       │               │   ├── JsonLoader.java
+│       │               │   └── CustomException.java
+│       │               │
+│       │               └── config/
+│       │                   ├── WebConfig.java
+│       │                   ├── CORSConfig.java
+│       │                   └── SwaggerConfig.java
+│       │
+│       └── resources/
+│           ├── content/
+│           │   ├── about.json
+│           │   ├── skills.json
+│           │   ├── experience.json
+│           │   ├── projects.json
+│           │   ├── education.json
+│           │   └── contact.json
+│           │
+│           ├── static/     (optional)
+│           │    └── profile.jpg
+│           │
+│           ├── application.properties
+│           └── banner.txt   (optional, for branding)
+│
+├── .gitignore
+├── pom.xml
+└── README.md

@@ -1,0 +1,41 @@
+{
+  "projects": [
+    {
+      "name": "📊 Campaign Performance Aggregation API",
+      "techStack": [
+        "Java",
+        "Spring Boot",
+        "REST APIs",
+        "JDBC",
+        "H2 in-memory database"
+      ],
+      "description": "Designed and implemented a scalable REST API that aggregated advertising campaign metrics from multiple sources, standardized the data model, and delivered real-time performance insights. Improved data retrieval latency and enabled unified reporting for downstream analytics tools.",
+      "github": "https://github.com/adityaraj5200/Campaign-Performance-Aggregation-API"
+    },
+    {
+      "name": "🌐 Personal Portfolio Website (the one you're currently viewing)",
+      "techStack": [
+        "Java",
+        "Spring Boot",
+        "React",
+        "Tailwind CSS",
+        "Framer Motion"
+      ],
+      "description": "Created a responsive and visually appealing personal portfolio website to showcase my projects, skills, and experience. Implemented smooth animations and transitions using Framer Motion, and styled the site with Tailwind CSS for a modern look.",
+      "github": "https://github.com/adityaraj5200/portfolio"
+    },
+    {
+      "name": "Expense Tracker Application",
+      "techStack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React"
+      ],
+      "description": "Developed a single-page application for managing income and expenses. Users can add and delete transactions (income/expense), annotate them with notes, and get a live-updating account balance. Built using React.js, JavaScript, HTML and CSS, and deployed on GitHub Pages.",
+      "github": "https://github.com/adityaraj5200/expense-tracker",
+      "liveLink": "https://adityaraj5200.github.io/expense-tracker/"
+    }
+    
+  ]
+}

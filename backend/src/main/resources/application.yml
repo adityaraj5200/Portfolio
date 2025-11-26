@@ -1,0 +1,39 @@
+# ===============================
+# Server Configuration
+# ===============================
+server:
+  port: 8080        # The port your Spring Boot app will run on
+
+# ===============================
+# Spring Configuration
+# ===============================
+spring:
+  mvc:
+    format:
+      date: yyyy-MM-dd   # Global date format for Spring MVC (e.g., JSON serialization/deserialization)
+
+  jackson:
+    serialization:
+      indent_output: true            # Pretty-print JSON output
+    default-property-inclusion: non_null   # Exclude null fields from JSON responses
+
+  web:
+    resources:
+      static-locations: classpath:/static/   # Location for serving static content (HTML, CSS, JS, images)
+
+# ===============================
+# Logging Configuration
+# ===============================
+logging:
+  level:
+    root: INFO                    # Default logging level for the entire application
+    com.aditya.portfolio: DEBUG   # Enable detailed logs only for your package
+
+# ===============================
+# OpenAPI / Swagger Configuration
+# ===============================
+springdoc:
+  api-docs:
+    path: /api-docs               # Path where OpenAPI JSON will be available
+  swagger-ui:
+    path: /swagger-ui.html        # Custom URL for Swagger UI dashboard

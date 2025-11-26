@@ -1,0 +1,17 @@
+{
+  "experience": [
+    {
+      "company": "Amazon",
+      "position": "SDE-1 (Software Development Engineer)",
+      "duration": "1.3 years",
+      "location": "Bangalore, India",
+      "description": [
+        "Developed scalable RESTful APIs using Java and Spring Boot for high-traffic services.",
+        "Improved performance and service reliability by refining internal data processing workflows.",
+        "Implemented clean, modular code following OOP and SOLID principles for maintainability.",
+        "Collaborated with cross-functional teams to deliver features end-to-end.",
+        "Worked with monitoring and logging tools to ensure system stability and reduce downtime."
+      ]
+    }
+  ]
+}

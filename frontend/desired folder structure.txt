@@ -1,0 +1,70 @@
+portfolio-frontend/
+│
+├── public/
+│   ├── content/
+│   │   ├── about.json
+│   │   ├── skills.json
+│   │   ├── experience.json
+│   │   ├── projects.json
+│   │   ├── education.json
+│   │   └── contact.json
+│   │
+│   ├── assets/
+│   │   ├── photo.jpg
+│   │   ├── arch-url-shortener.svg
+│   │   ├── arch-ecommerce.svg
+│   │   └── logo.svg
+│   │
+│   ├── favicon.ico
+│   └── index.html
+│
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│   │
+│   ├── lib/
+│   │   └── fetchContent.js         # Loads JSON from /public/content/
+│   │
+│   ├── hooks/
+│   │   └── usePrefersReducedMotion.js
+│   │
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Navbar.jsx
+│   │   │   └── Footer.jsx
+│   │   │
+│   │   ├── hero/
+│   │   │   └── Hero.jsx
+│   │   │
+│   │   ├── about/
+│   │   │   └── About.jsx
+│   │   │
+│   │   ├── ui/
+│   │   │   ├── CodeWindowTerminal.jsx
+│   │   │   ├── SectionHeader.jsx
+│   │   │   └── Button.jsx
+│   │   │
+│   │   ├── skills/
+│   │   │   └── SkillsGrid.jsx
+│   │   │
+│   │   ├── experience/
+│   │   │   └── ExperienceTimeline.jsx
+│   │   │
+│   │   ├── projects/
+│   │   │   ├── ProjectsGrid.jsx
+│   │   │   └── ProjectCard.jsx
+│   │   │
+│   │   └── contact/
+│       │       └── Contact.jsx
+│       │
+│       └── animations/
+│           ├── Reveal.jsx           # scroll-into-view animation wrapper
+│           └── transitions.js       # shared spring/transition configs
+│
+├── tailwind.config.cjs
+├── postcss.config.cjs
+├── vite.config.js
+├── package.json
+├── .gitignore
+└── README.md

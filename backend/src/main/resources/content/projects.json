@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "name": "URL Shortener Service",
+      "techStack": [
+        "Java",
+        "Spring Boot",
+        "Redis",
+        "Docker",
+        "REST APIs"
+      ],
+      "description": "A high-performance URL shortener backend that supports fast redirects, caching via Redis, rate limiting, and basic click analytics. Designed with clean layered architecture and follows REST API best practices.",
+      "github": "https://github.com/aditya/url-shortener"
+    },
+    {
+      "name": "E-Commerce Backend System",
+      "techStack": [
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "JWT Authentication",
+        "REST APIs"
+      ],
+      "description": "A complete backend system for an e-commerce platform featuring user authentication, product management, cart handling, order workflows, and role-based access control. Built using clean code and database-driven architecture.",
+      "github": "https://github.com/aditya/ecommerce-backend"
+    }
+  ]
+}

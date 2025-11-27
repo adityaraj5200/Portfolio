@@ -70,7 +70,7 @@ export default function Contact() {
       </motion.p>
 
       {/* Contact Icons */}
-      <div className="flex justify-center gap-10 mt-6">
+      <div className="flex flex-wrap justify-center gap-6 md:gap-10 mt-6 px-2">
         {contactItems.map((item, index) => (
           <motion.a
             key={index}

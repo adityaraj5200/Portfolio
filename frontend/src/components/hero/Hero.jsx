@@ -62,7 +62,7 @@ export default function Hero() {
 
         {/* Photo */}
         <img
-          src="/assets/photo.jpg"
+          src={`${import.meta.env.BASE_URL}assets/photo.jpg`}
           alt="Aditya Raj alternative"
           className="relative rounded-2xl shadow-xl"
         />
